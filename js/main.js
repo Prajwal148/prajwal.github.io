@@ -107,3 +107,11 @@
     
 })(jQuery);
 
+function showDetails(projectId) {
+    document.getElementById(projectId).style.display = 'block';
+  }
+  
+  function hideDetails(projectId) {
+    document.getElementById(projectId).style.display = 'none';
+  }
+  
